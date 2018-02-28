@@ -14,7 +14,7 @@ import org.junit.jupiter.api.TestInfo;
 
 	import static org.junit.Assert.*;
 	
-public class Knapsack_test {
+public class KnapsackTest {
 
 	 private int expected;
 	  //  private List<Tuple> items;
@@ -25,11 +25,8 @@ public class Knapsack_test {
 	    
 	    @Test
 	    public void compute1() throws Exception {
-	        expected = 220;
+	        expected = 220 ;       //220
 	        
-	      
-	       
-
 	        test(expected, W, wt, val, n);
 	    }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="4" skipped="0" failures="0" errors="0" time="0.062" hostname="DESKTOP-S8TS171" timestamp="2018-02-26T15:28:47">
+<testsuite name="JUnit Jupiter" tests="11" skipped="0" failures="0" errors="0" time="0.07" hostname="DESKTOP-S8TS171" timestamp="2018-02-27T16:46:53">
 <properties>
 <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
 <property name="file.encoding" value="windows-1252"/>
@@ -57,7 +57,7 @@
 <property name="user.timezone" value="America/Los_Angeles"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="singleElementBagTest(TestInfo)" classname="com.algs4.fun.BagTest" time="0.016">
+<testcase name="singleElementBagTest(TestInfo)" classname="com.algs4.fun.BagTest" time="0.015">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.BagTest]/[method:singleElementBagTest(org.junit.jupiter.api.TestInfo)]
 display-name: My 1st JUnit 5 test!
@@ -79,6 +79,48 @@ display-name: compute1()
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.ComputeScoreTest]/[method:compute2()]
 display-name: compute2()
+]]></system-out>
+</testcase>
+<testcase name="compute1()" classname="com.algs4.fun.KnapsackTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.KnapsackTest]/[method:compute1()]
+display-name: compute1()
+]]></system-out>
+</testcase>
+<testcase name="testIsEmptyOnNotEmpty()" classname="com.algs4.fun.QueueTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testIsEmptyOnNotEmpty()]
+display-name: testIsEmptyOnNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="testIsEmptyOnEmpty()" classname="com.algs4.fun.QueueTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testIsEmptyOnEmpty()]
+display-name: testIsEmptyOnEmpty()
+]]></system-out>
+</testcase>
+<testcase name="testOneDequeue()" classname="com.algs4.fun.QueueTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testOneDequeue()]
+display-name: testOneDequeue()
+]]></system-out>
+</testcase>
+<testcase name="testEmptyAfterDequeue()" classname="com.algs4.fun.QueueTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testEmptyAfterDequeue()]
+display-name: My final JUnit  test!
+]]></system-out>
+</testcase>
+<testcase name="testOrdering()" classname="com.algs4.fun.QueueTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testOrdering()]
+display-name: testOrdering()
+]]></system-out>
+</testcase>
+<testcase name="testOneEnqueue()" classname="com.algs4.fun.QueueTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.algs4.fun.QueueTest]/[method:testOneEnqueue()]
+display-name: testOneEnqueue()
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[
